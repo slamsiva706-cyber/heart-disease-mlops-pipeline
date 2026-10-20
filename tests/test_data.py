@@ -29,7 +29,6 @@ def test_download_saves_raw_csv(tmp_path, monkeypatch):
 
 
 def test_clean_removes_missing_and_binarizes_target(tmp_path):
-    assert False, "intentional CI fail-fast check"
     raw_csv = tmp_path / "raw.csv"
     raw_csv.write_text(
         "age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,target\n"
