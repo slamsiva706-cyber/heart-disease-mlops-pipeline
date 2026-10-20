@@ -36,7 +36,7 @@
 
 - [x] 6.1 Add lint tooling/config (e.g., ruff or flake8), verify running it locally reports no errors on current code
 - [x] 6.2 Write `.github/workflows/ci.yml` with sequential lint -> pytest -> training stages, verify a pushed commit/PR triggers the workflow and all stages run in order
-- [ ] 6.3 Configure the workflow to fail fast on lint/test/training errors and upload logs/artifacts per run, verify an intentionally broken test causes the workflow to fail and the training stage to be skipped, then revert the break
+- [x] 6.3 Configure the workflow to fail fast on lint/test/training errors and upload logs/artifacts per run, verify an intentionally broken test causes the workflow to fail and the training stage to be skipped, then revert the break
 
 ## 7. Production Deployment
 
